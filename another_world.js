@@ -1,3 +1,9 @@
+
+let myVar = 1;
+myVar = myVar + 5;
+myVar += 5;
+console.log(myVar);
+
 // var myName = "Kat";
 // var myName = "Truong";
 // console.log(myName);
