@@ -81,3 +81,5 @@ let myArray2 = [["J", 1], ["K", 2]];
 myArray2.push("L", 3);
 myArray2.pop();
 console.log(myArray2);
+
+let randomR = [1, "random things"];
