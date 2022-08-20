@@ -32,3 +32,37 @@ function letCompare() {
     }
     console.log(theX); //should show 1
 }
+
+const sym1 = Symbol();
+const sym2 = Symbol('foo');
+const sym3 = Symbol('foo');
+console.log(sym1);
+console.log(sym2);
+
+const maxSafe = BigInt(Number.MAX_SAFE_INTEGER);
+const minusMaxSafe = maxSafe - 12n;
+console.log(maxSafe);
+console.log(minusMaxSafe);
+
+// remainder or modulus
+let x1 = 7;
+let x2 = 2;
+let y1 = x1 % x2;
+console.log(y1);
+
+// incrementing
+y1++;
+let y2 = y1;
+console.log(y2);
+y2--;
+let y3 = y2;
+console.log(y3);
+
+//exponentiation
+let x3 = 12;
+let xExpo = x3 ** 2;
+let xExpoMath = Math.pow(x3, 2);
+console.log(xExpo);
+console.log(xExpoMath);
+let testShift = xExpo >> 2;
+console.log(testShift);
