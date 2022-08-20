@@ -66,3 +66,18 @@ console.log(xExpo);
 console.log(xExpoMath);
 let testShift = xExpo >> 2;
 console.log(testShift);
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+myArray.push(["dog", 3]);
+
+console.log(myArray);
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
+
+let myArray2 = [["J", 1], ["K", 2]];
+myArray2.push("L", 3);
+myArray2.pop();
+console.log(myArray2);
