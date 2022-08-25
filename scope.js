@@ -15,7 +15,7 @@ console.log(y);
 
 const outerWear = "T-Shirt";
 function myOutfit() {
-    const outerWear = "dress"; //local variable takes precedence over the global variable
+    var outerWear = "dress"; //local variable takes precedence over the global variable
     return outerWear;
 }
 let testingLocalPrecedence = myOutfit();
